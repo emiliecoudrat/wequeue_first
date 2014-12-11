@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><i class="fa fa-home maison"></i> home</a>
+          <!-- <a class="navbar-brand" href="index.html"><i class="fa fa-home maison"></i> home</a> -->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -40,6 +40,7 @@
     </nav>
 
     <div class="text-center banner text-center">
+      <div class="container">
       <h1>weQueue</h1>
       <p id="sentence">Trouvez un membre de notre communauté pour faire la queue à votre place.</p>
      <!--  <a href="#" class="btn btn-default btn-lg" data-toggle="modal" data-target="#signup">Sign-up now !</a> -->
@@ -50,19 +51,23 @@
 
      <p id="exclu">Inscrivez-vous pour être alerté en exclusité du lancement de weQueue.</p>
 
-      <form class="form-inline" role="form">
-        <div id="form-display">
-          <div class="form-group">
-            <label class="sr-only" for="exampleInputEmail2">Email address</label>
-            <input type="email" class="form-control list-inline" id="exampleInputEmail2" placeholder="Enter email">
-          </div>
-        <button type="submit" class="btn btn-default list-inline" id="monbouton">Sign now !</button>
-        </div>
-      </form>
+<!-- Begin MailChimp Signup Form -->
+      <div id="form-display">
+      <div id="mc_embed_signup">
+        <form action="http://wequeue.us9.list-manage.com/subscribe/post?u=19d4c2e4f99a97a7d77798493&amp;id=f86ada7f25" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
 
-     <!--  <div>
-        <p id="sentence">Trouvez un membre de notre communauté pour faire la queue à votre place.</p>
-      </div> -->
+        <div id="mc_embed_signup_scroll">
+
+            <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email" required>
+            <input type="submit" value="Je m'inscris!" name="subscribe" id="mc-embedded-subscribe" class="button form-control btn-primary monbouton">
+
+        </div>
+
+        </form>
+      </div>
+      </div>
+<!--End mc_embed_signup-->
+
     </div>
 
     <div class="black-bg">
@@ -83,15 +88,18 @@
               <img src="img/agenda.png" width="100">
               <p>Bookez votre 'Queuer' pour un événement</p>
             </div>
+            <br>
           </div>
+
+
 
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="feature">
               <img src="img/hands.png" width="100">
               <p>Prenez sa place dans la queue</p>
             </div>
+            <br>
           </div>
-
 
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="feature">
@@ -110,8 +118,8 @@
           <a href="mailto:hello@wequeue.com"><i class="fa fa-envelope fa-3x"></i></a>
         </div>
 
-      </div>
-    </div>
+        </div>
+
 
 <!--     <div id="footer">
       <ul class="list-inline text-center">

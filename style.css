@@ -16,10 +16,6 @@
   font-weight: bold;
   color: #FFD620;
   text-shadow: 1px 1px 0.8px #292929;
-    @media screen and (max-width: 768px)
-    {
-      font-size: 6rem;
-    }
 }
 
 .feature h2 {
@@ -32,19 +28,22 @@
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  color: #FFD620;
   text-shadow: 1px 1px 1px #292929;
 }
 
 #form-display {
-  margin-top: 30px;
+  margin-bottom: 80px;
 }
 
-#monbouton {
-  margin-top: 5px;
+.monbouton {
   background-color : black;
   color : #ccc;
-  border-color: none;
+  border-color: white;
+}
+
+.monbouton:hover {
+  background-color: #FFD620;
+  border-color: white;
 }
 
 #mynav {
@@ -95,6 +94,7 @@
 #sentence {
   font-size: 24px;
   margin-top: 20px;
+  color: #FFD620;
 }
 
 #exclu {
@@ -128,9 +128,11 @@
 }
 
 .feature p {
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-shadow: none;
+  font-weight: normal;
 }
-
 
 #conclusion {
   padding-top: 30px;
@@ -164,4 +166,10 @@
 
 #footer {
   background-image: url("img/yellowsky.jpg");
+}
+
+@media screen and (max-width: 500px) {
+  .banner h1 {
+    font-size: 8rem;
+  }
 }
