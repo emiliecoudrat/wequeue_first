@@ -111,8 +111,8 @@
   font-weight: 100;
   background-color: #FFD620;
   padding: 20px;
-  height: 250px;
-  width: 250px;
+  height: 210px;
+  width: 210px;
   border-radius: 50%;
 /*  margin-left: 10px;
   margin-right: 10px;*/
@@ -132,6 +132,7 @@
   color: black;
   text-shadow: none;
   font-weight: normal;
+  font-size: 14px;
 }
 
 #conclusion {
@@ -170,6 +171,9 @@
 
 @media screen and (max-width: 500px) {
   .banner h1 {
-    font-size: 8rem;
+    font-size: 6rem;
+  }
+  .monbouton {
+    margin-top: 10px;
   }
 }
