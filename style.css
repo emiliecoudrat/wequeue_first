@@ -136,7 +136,7 @@
 }
 
 #conclusion {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
   font-size: 20px;
   font-weight: 700;
@@ -167,6 +167,10 @@
 
 #footer {
   background-image: url("img/yellowsky.jpg");
+}
+
+.fa-copyright {
+  color: white;
 }
 
 @media screen and (max-width: 500px) {
