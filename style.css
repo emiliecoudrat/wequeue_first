@@ -97,7 +97,9 @@
 
 .black-bg{
   background-color: white;
-  background-image: url('img/bgimage.jpg');
+  background-image: url('img/bgimage.png');
+  background-size: cover;
+  background-attachment: fixed;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -158,11 +160,11 @@
 #conclusion {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 20px;
   font-weight: 700;
 }
 
 #conclusion p {
+  font-size: 25px;
   color: white;
 }
 
